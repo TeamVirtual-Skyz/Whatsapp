@@ -5,13 +5,13 @@
 		"whatsapp",
 		"bot"
 	],
-	"repository": "https://github.com/raganork-ind/whatsapp-bot",
+	"repository": "https://github.com/TeamVirtual-Skyz/Whatsapp",
 	"stack": "container",
     "env": { 
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"$"
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"Team-Virtual"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -51,7 +51,7 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"Team-Virtual"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -71,7 +71,7 @@
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
-            "value":"{pp} Active since {uptime}\n User:{sender}"
+            "value":"I'm Alive Bot 🧸 Active {uptime}\n User:{sender}"
         },
        "SESSION": {
             "description": "Your MD session",
